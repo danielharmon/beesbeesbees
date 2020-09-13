@@ -1,5 +1,6 @@
 var RetiredForagerBee = function() {
   ForagerBee.call(this);
+  console.log(this)
   this.age = 40;
   this.job = 'gamble';
   this.canFly = false;
